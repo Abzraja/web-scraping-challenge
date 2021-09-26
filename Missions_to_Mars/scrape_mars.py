@@ -101,6 +101,9 @@ def scrape():
     #check list of dictionaries
     print(hemisphere_image_urls)
 
+    #close the splinter browser
+    browser.quit()
+
     scrape_data = {
         "news_title": news_title,
         "news_p": news_p,
