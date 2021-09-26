@@ -35,4 +35,4 @@ Below is the result of clicking the scrape button. You can see the content succe
 ## Conclusion
 This was an extremely difficult assignment. I have a strong feeling of accomplishment having worked my way through and successfully completing all aspects of the assignment.
 
-I would liked to write a more thorough READE, but unfortunately due to difficulty and long time spent on the assignment. I have run out of time. I hope I am not deducted marks for this. Everything on the app works correctly and the webpage displays nicely.
+I would have liked to write a more thorough README, but unfortunately due to the difficulty of the assignment and long time spent on the assignment, I have run out of time. I hope I am not deducted marks for having a short README. Everything on the app works correctly and the webpage displays nicely.
