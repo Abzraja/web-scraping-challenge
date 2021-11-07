@@ -10,6 +10,18 @@ client = pymongo.MongoClient('mongodb://localhost:27017')
 # Connect to a database. Will create one if not already available.
 db = client.mars_db
 
+## if no collections in database then run scrape function
+count = db.scrape.count_documents({})
+print(f"{count} collections in {db}")
+
+if db.scrape.count_documents({}) == 0:
+
+    #Run the scrape function from scrape_mars
+    scrape_data = scrape_mars.scrape()
+    
+    #Update Monogo database using 
+    db.scrape.update({}, scrape_data, upsert=True)
+
 @app.route("/")
 def index():
     # Find record of data from the mongo database
@@ -19,7 +31,7 @@ def index():
     return render_template("index.html", listings=listings)
 
 @app.route("/scrape")
-def scrape():
+def scraper():
     #Run the scrape function from scrape_mars
     scrape_data = scrape_mars.scrape()
     
