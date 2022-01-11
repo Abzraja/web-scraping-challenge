@@ -13,13 +13,13 @@ Then I used Flask and Bootstrap to render a webpage which pulled the stored scra
 ### Scrape Source
 Data was scraped from https://redplanetscience.com/ and https://spaceimages-mars.com/
 
-### Working Scrape Screenshot
+### Working Scrape Screenshots
 Below is the result of clicking the scrape button. You can see the content successfully changes based on the dynamic content that changed on the original pages that were scraped.
 
-### Before Clicking Scrape Button
+##### Before Clicking Scrape Button
 <img src="Images/scrape-1.png" width="600">
 
-### After Clicking Scrape Button
+##### After Clicking Scrape Button
 <img src="Images/scrape-2.png" width="600">
 
 
