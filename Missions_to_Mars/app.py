@@ -1,11 +1,17 @@
 from flask import Flask, render_template, redirect
+import os
 import pymongo
 import scrape_mars
+
+
+MONGODB = os.environ.get('MONGODB')
+MONGOUSERPASS = os.environ.get('MONGOUSERPASS')
+
 
 app = Flask(__name__)
 
 # Connect to PyMongo DB
-client = pymongo.MongoClient('mongodb://localhost:27017')
+client = pymongo.MongoClient(f'mongodb+srv://{MONGOUSERPASS}@{MONGODB}')
 
 # Connect to a database. Will create one if not already available.
 db = client.mars_db
@@ -43,4 +49,4 @@ def scraper():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
