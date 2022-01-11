@@ -1,5 +1,5 @@
-# Web Scraping Challenge
-<img src="Images/readme-header.jpg" width="600">
+# Web Scraping with Beautiful Soup and Splinter.
+<img src="Images/readme-header.jpg" width="500">
 
 ## Working app deployed to Heroku
 https://abz-web-scraping-mars.herokuapp.com/
@@ -20,7 +20,12 @@ Below is the result of clicking the scrape button. You can see the content succe
 ### After Clicking Scrape Button
 <img src="Images/scrape-2.png" width="600">
 
-## View App
+
+## MongoAtlas
+Intially used a local MongoDB but then set up a Mongo Atlas cloud database so I could deploy the app to Heroku.
+
+
+## Deployed to Heroku
 You can view the app by visiting the link below: <br />
 https://abz-web-scraping-mars.herokuapp.com/
 
