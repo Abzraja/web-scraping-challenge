@@ -1,6 +1,9 @@
 # Web Scraping Challenge
 <img src="Images/readme-header.jpg" width="600">
 
+## Working app deployed to Heroku
+https://abz-web-scraping-mars.herokuapp.com/
+
 ## Summary
 
 Web scraping demonstration using PyMongo and Beautiful Soup to scrape a website and store the data in a Mongo database.
@@ -17,3 +20,16 @@ Below is the result of clicking the scrape button. You can see the content succe
 ### After Clicking Scrape Button
 <img src="Images/scrape-2.png" width="600">
 
+## View App
+You can view the app by visiting the link below: <br />
+https://abz-web-scraping-mars.herokuapp.com/
+
+<br />
+<br />
+<hr />
+<br />
+
+<img width="150" src="https://drive.google.com/uc?export=view&id=1OH_TvDjISYpoKL_98Jx3CDFPM7Xp8J6H">
+
+### Abz Raja
+abzraja@gmail.com
